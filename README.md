@@ -9,3 +9,6 @@ Testing Environment in Docker container which contains,
 ```bash
 $ docker run --rm -p 5900:5900 -v "$PWD":/usr/src wasiqb/coteafs-selenium
 ```
+
+## View in VNC
+To view your tests run inside the Docker container, connect to VNC viewer on `localhost:5000`.
